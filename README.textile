@@ -3,6 +3,7 @@ h1. Heatspots Client
 A simple client for the Heatspots server app.
 
 h2. Installation
+
 Assuming that you have a Ruby installation, grab bundler for managing dependencies:
 
 bc. gem install bundler
