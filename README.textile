@@ -1,0 +1,23 @@
+h1. Heatspots Client
+
+A simple client for the Heatspots server app.
+
+h2. Installation
+Assuming that you have a Ruby installation, grab bundler for managing dependencies:
+
+bc. gem install bundler
+git clone https://louismrose@github.com/louismrose/heatspots_client.git
+cd heatspots_client
+bundler install
+
+h2. Usage
+
+From your ruby script (or irb) require the 'lib/heatspot.rb' file. Then:
+
+bc. # Create some new heatspots
+Heatspot.plot(1, 2, 3)
+Heatspot.plot(4, 5, 6)
+#
+# Clear them all!
+Heatspot.clear
+
