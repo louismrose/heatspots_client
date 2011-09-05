@@ -13,9 +13,10 @@ bundler install
 
 h2. Usage
 
-From your ruby script (or irb) require the 'lib/heatspot.rb' file. Then:
+From your ruby script (or irb):
 
-bc. # Create some new heatspots
+bc. require 'lib/heatspot.rb'
+# Create some new heatspots
 Heatspot.plot(1, 2, 3)
 Heatspot.plot(4, 5, 6)
 #
