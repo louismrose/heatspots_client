@@ -15,11 +15,9 @@ h2. Usage
 
 From your ruby script (or irb):
 
-bc. require 'lib/heatspot.rb'
-# Create some new heatspots
-Heatspot.plot(1, 2, 3)
-Heatspot.plot(4, 5, 6)
-#
-# Clear them all!
-Heatspot.clear
+bc. require 'lib/heatmap.rb'
+# Create a heatmap containing one heatspot
+Heatmap.plot_singleton("SingleSpot" lat: 1, long: 2, strength: 3)
+# Create a heatmap containing many heatspots
+Heatmap.plot_many("ManySpots", [{lat: 1, long: 2, strength: 3}, {lat: 4, long: 5, strength: 6}])
 
